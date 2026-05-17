@@ -16,8 +16,61 @@ export default function Home() {
           className="letter-body reveal reveal-delay-1"
           style={{ fontStyle: 'italic', marginTop: '0.75rem' }}
         >
-          Each one built for a specific job. Focused, fast, and complete.
+          Every tool here started with someone searching "is there anything for this?"
         </p>
+
+        <div
+          className="reveal reveal-delay-2"
+          style={{
+            marginTop: '3rem',
+            paddingTop: '2rem',
+            borderTop: '1px solid var(--color-line-soft)',
+          }}
+        >
+          <p className="eyebrow" style={{ marginBottom: '0.875rem' }}>The maker</p>
+          <p
+            style={{
+              fontFamily: 'var(--font-lora), Georgia, serif',
+              fontSize: '1rem',
+              lineHeight: 1.75,
+              color: 'var(--color-ink-soft)',
+              marginBottom: '1.25rem',
+            }}
+          >
+            I&rsquo;m Kartik Shukla, a developer in Bengaluru. I notice what people
+            keep searching for and build the missing tool. More at{' '}
+            <a
+              href="https://kartikshukla.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="letter-link"
+              style={{ color: 'inherit' }}
+            >
+              kartikshukla.dev
+            </a>
+            .
+          </p>
+          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            <a
+              href="https://kartikshukla.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-ghost"
+              style={{ textDecoration: 'none' }}
+            >
+              Portfolio ↗
+            </a>
+            <a
+              href="https://cal.com/kartikshukla"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-accent"
+              style={{ textDecoration: 'none' }}
+            >
+              Book a call
+            </a>
+          </div>
+        </div>
       </Container>
     </section>
   )
