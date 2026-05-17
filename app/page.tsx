@@ -19,8 +19,32 @@ export default function Home() {
           Every tool here started with someone searching "is there anything for this?"
         </p>
 
+        <div className="reveal reveal-delay-2" style={{ marginTop: '3rem' }}>
+          <p className="eyebrow" style={{ marginBottom: '0' }}>Tools</p>
+
+          <a
+            href="https://packguard.kartikshukla.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="work-row"
+          >
+            <div className="work-row-meta">
+              <span className="tag-pill">npm</span>
+              <span className="tag-pill">security</span>
+              <span className="tag-pill">cli</span>
+            </div>
+            <div className="work-row-headline">
+              <span className="work-row-title">PackGuard</span>
+              <span className="work-arrow">↗</span>
+            </div>
+            <p className="tool-desc">
+              Scans your npm tarball before publish. Catches AI config files (.claude, .cursor, .codex), embedded source maps, and high-entropy secrets. Runs entirely locally. Nothing leaves your machine.
+            </p>
+          </a>
+        </div>
+
         <div
-          className="reveal reveal-delay-2"
+          className="reveal reveal-delay-3"
           style={{
             marginTop: '3rem',
             paddingTop: '2rem',
